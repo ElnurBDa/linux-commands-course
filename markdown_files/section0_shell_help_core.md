@@ -3,7 +3,7 @@ title: "Orientation — Shell & Getting Help (Core)"
 sub_title: "Linux Commands Course · Section 0"
 author: "IDSchool"
 theme:
-  name: catppuccin-mocha
+  name: gruvbox-dark
 options:
   # Treat each setext H1/H2 as ending the previous slide
   implicit_slide_ends: true
@@ -256,16 +256,6 @@ Keyboard shortcuts (must‑know)
 | Ctrl+L  | Clear screen (like `clear`) |
 | ↑ / ↓   | Browse command history |
 | Tab     | Auto‑complete names |
-
----
-
-Quick practice
-==============
-1) Show which shell you’re using.  
-2) Print your name with `echo`.  
-3) Find a one‑line description for `echo` using `whatis`.  
-4) Use `type` and `which` on `echo`. Compare the outputs.  
-5) Open `man echo`, search for the word “escape”, then quit.
 
 ---
 

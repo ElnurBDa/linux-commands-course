@@ -29,3 +29,8 @@ presenterm section0_shell_help_core.md
 ## 🛠 Requirements
 - Linux environment
 - Basic terminal knowledge
+
+## PDF Convert
+```bash
+for f in *.md; do presenterm -e "$f"; done
+```

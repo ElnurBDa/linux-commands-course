@@ -3,17 +3,12 @@ title: "Environment & Customization (Plus)"
 sub_title: "Linux Commands Course · Section 17"
 author: "IDSchool"
 theme:
-  name: catppuccin-mocha
+  name: gruvbox-dark
 options:
   implicit_slide_ends: true
   list_item_newlines: 1
 ---
 
-Goal
-====
-Understand how to **customize your shell environment** — what runs when you log in, how variables and aliases work, and how to personalize command history.
-
----
 
 What Is the Shell Environment?
 ==============================
@@ -276,16 +271,4 @@ Customizing your shell makes Linux truly *yours*.
 
 ---
 
-Practice
-========
-1. Add a custom alias `update` to run system updates.  
-2. Add `$HOME/scripts` to your PATH.  
-3. Enable timestamps in your history.  
-4. Install and test `bash-completion` for `git`.  
-5. Create a `/etc/profile.d/myenv.sh` that defines a global variable.  
 
----
-
-Next Up
-=======
-**System Information & Troubleshooting (Plus)** — checking health, logs, and performance stats.

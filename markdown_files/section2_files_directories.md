@@ -3,19 +3,12 @@ title: "Files & Directories (Core)"
 sub_title: "Linux Commands Course · Section 2"
 author: "IDSchool"
 theme:
-  name: catppuccin-mocha
+  name: gruvbox-dark
 options:
   implicit_slide_ends: true
   list_item_newlines: 1
 ---
 
-Goal
-====
-Understand how to **create, view, modify, and organize** files and directories in Linux.
-
-You’ll learn to handle files safely, read them efficiently, and manage structure with precision.
-
----
 
 Everything is a File
 ====================
@@ -319,19 +312,4 @@ These are your daily drivers for file management in Linux.
 
 ---
 
-Practice
-========
-1. Create a directory named `lab`.  
-2. Inside it, make an empty file `report.txt`.  
-3. View it with `cat`, then `less`.  
-4. Copy it to `backup/` and rename it.  
-5. Create a symbolic link to it called `latest_report`.  
-6. Delete the original — what happens to the symlink?  
-7. Inspect the file type using `file`.  
-8. Check file details with `stat`.
 
----
-
-Next Up
-=======
-**Permissions & Ownership (Core)** — understanding who can do what with files.

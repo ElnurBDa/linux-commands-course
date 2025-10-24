@@ -3,19 +3,12 @@ title: "Finding Things (Core)"
 sub_title: "Linux Commands Course · Section 4"
 author: "IDSchool"
 theme:
-  name: catppuccin-mocha
+  name: gruvbox-dark
 options:
   implicit_slide_ends: true
   list_item_newlines: 1
 ---
 
-Goal
-====
-Learn how to **find files, commands, and data** efficiently in Linux.
-
-You’ll master tools that search your filesystem, locate executables, and query system indexes.
-
----
 
 Finding Commands — `which`, `whereis`, `type`
 =============================================
@@ -227,20 +220,6 @@ Use `locate` for quick lookups, and `find` for precise, real‑time results.
 
 ---
 
-Pro Tip — Searching Large Systems
-=================================
-Combine tools for power and safety:
-
-```bash
-sudo updatedb
-locate "*.log" | grep "/var/log"
-find /var/log -type f -mtime -7 -exec du -h {} + | sort -h | tail
-```
-
-This identifies large or recently modified log files.
-
----
-
 Recap
 =====
 - **Command locations:** `which`, `whereis`, `type`  
@@ -252,16 +231,4 @@ These are your search toolkit for any Linux environment.
 
 ---
 
-Practice
-========
-1. Use `which` to find the path to `bash`.  
-2. Run `whereis` on `ls` and identify its man page location.  
-3. Search your home directory for files larger than 1 MB.  
-4. Exclude `.cache` directories from a recursive search.  
-5. Use `locate` to find any “shadow” file, then refresh the database with `updatedb`.
 
----
-
-Next Up
-=======
-**Text Viewing & Pipelines (Core)** — reading, filtering, and connecting commands.

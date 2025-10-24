@@ -3,19 +3,12 @@ title: "Disks, Partitions & Filesystems (Core)"
 sub_title: "Linux Commands Course · Section 14"
 author: "IDSchool"
 theme:
-  name: catppuccin-mocha
+  name: gruvbox-dark
 options:
   implicit_slide_ends: true
   list_item_newlines: 1
 ---
 
-Goal
-====
-Learn how to **inspect disks, partitions, and filesystems**, check space usage, and safely mount or manage storage devices.
-
-This section provides essential commands for storage administration.
-
----
 
 Storage Concepts
 ================
@@ -325,17 +318,4 @@ These commands form the foundation of disk and storage management in Linux.
 
 ---
 
-Practice
-========
-1. List all disks and their filesystems with `lsblk -f`.  
-2. Check total disk usage using `df -h`.  
-3. Find which directory takes the most space using `du -sh *`.  
-4. Mount a USB drive to `/mnt` and then unmount it.  
-5. Inspect `/etc/fstab` and identify all entries.  
-6. Enable or disable swap space with `swapon` and `swapoff`.
 
----
-
-Next Up
-=======
-**Scheduling Tasks (Core)** — automating jobs with `cron` and system timers.

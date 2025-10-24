@@ -3,19 +3,12 @@ title: "Bash Scripting (Core → Plus)"
 sub_title: "Linux Commands Course · Section 16"
 author: "IDSchool"
 theme:
-  name: catppuccin-mocha
+  name: gruvbox-dark
 options:
   implicit_slide_ends: true
   list_item_newlines: 1
 ---
 
-Goal
-====
-Learn to write **robust Bash scripts**: shebangs, variables, quoting, control flow, functions, input parsing, arrays, traps, and practical patterns.
-
-You’ll also see tooling for linting and auto-formatting.
-
----
 
 Your First Script — Shebang
 ===========================
@@ -414,10 +407,3 @@ Recap
 
 ---
 
-Practice
-========
-1. Write a script that greets a named user and logs to a file.  
-2. Parse `-i` and `-o` flags, transform input, and save output.  
-3. Use a temporary workspace and ensure it’s cleaned with `trap`.  
-4. Compare two files using process substitution.  
-5. Run `shellcheck` and `shfmt` on your script.

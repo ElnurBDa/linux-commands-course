@@ -3,19 +3,12 @@ title: "Processes & Jobs (Core)"
 sub_title: "Linux Commands Course · Section 10"
 author: "IDSchool"
 theme:
-  name: catppuccin-mocha
+  name: gruvbox-dark
 options:
   implicit_slide_ends: true
   list_item_newlines: 1
 ---
 
-Goal
-====
-Learn how to **observe, control, and manage running programs** in Linux.
-
-You’ll understand process IDs, priorities, foreground/background jobs, and safe termination.
-
----
 
 What Is a Process?
 ==================
@@ -331,17 +324,4 @@ Mastering these makes you fluent in process control and multitasking.
 
 ---
 
-Practice
-========
-1. Run `sleep 120` in background and list it with `jobs`.  
-2. Bring it to foreground, then stop it with **Ctrl+Z**.  
-3. Resume in background with `bg`.  
-4. Disown it and close your terminal — confirm it stays active via `ps`.  
-5. Start a command with low priority using `nice`.  
-6. Use `top` to monitor and `kill` to stop it gracefully.
 
----
-
-Next Up
-=======
-**Services & Logs (Core)** — managing system daemons and tracking their behavior.

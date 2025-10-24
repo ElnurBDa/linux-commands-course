@@ -3,19 +3,12 @@ title: "Quality-of-Life & Modern CLI Helpers (Optional)"
 sub_title: "Linux Commands Course · Section 20"
 author: "IDSchool"
 theme:
-  name: catppuccin-mocha
+  name: gruvbox-dark
 options:
   implicit_slide_ends: true
   list_item_newlines: 1
 ---
 
-Goal
-====
-Explore modern tools that improve your **terminal experience** — faster, more colorful, and user-friendly alternatives to traditional Unix utilities.
-
-These are optional but highly recommended for daily productivity.
-
----
 
 Quick References — `tldr`
 =========================
@@ -221,16 +214,6 @@ These tools make everyday terminal work faster, clearer, and more enjoyable.
 
 ---
 
-Practice
-========
-1. Use `tldr tar` to review archive usage.  
-2. Search for a keyword in your home directory using `rg`.  
-3. Replace `find` commands with `fd`.  
-4. Try viewing scripts with `bat`.  
-5. Monitor network traffic with `nload` or `iftop`.  
-6. Explore system performance interactively using `btop`.
-
----
 
 Congratulations!
 ================

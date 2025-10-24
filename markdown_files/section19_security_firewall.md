@@ -3,17 +3,12 @@ title: "Security & Firewall (Plus)"
 sub_title: "Linux Commands Course · Section 19"
 author: "IDSchool"
 theme:
-  name: catppuccin-mocha
+  name: gruvbox-dark
 options:
   implicit_slide_ends: true
   list_item_newlines: 1
 ---
 
-Goal
-====
-Learn about **security controls and firewalls** in Linux — how privileges are managed, how access control systems work, and how to configure basic network protection.
-
----
 
 Linux Security Layers
 =====================
@@ -278,18 +273,6 @@ When to Use Which
 
 ---
 
-Best Practices for Security
-===========================
-- Keep system and packages updated (`apt upgrade`, `dnf update`).  
-- Limit SSH access; use key authentication instead of passwords.  
-- Disable unnecessary services.  
-- Use `ufw` or `firewalld` to restrict inbound ports.  
-- Monitor logs for unusual activity (`journalctl -p err`, `/var/log/auth.log`).  
-- Review file capabilities periodically.  
-- For servers, use `fail2ban` to block brute-force attacks.
-
----
-
 Recap
 =====
 - **File capabilities:** `getcap`, `setcap` (fine-grained privileges)  
@@ -299,17 +282,4 @@ Recap
 
 ---
 
-Practice
-========
-1. View capabilities of `/bin/ping`.  
-2. Enable `ufw` and allow SSH while denying Telnet.  
-3. Check current firewall rules.  
-4. Check whether your system uses SELinux or AppArmor.  
-5. List loaded AppArmor profiles or SELinux mode.  
-6. View firewall rules using `nft list ruleset`.
 
----
-
-Next Up
-=======
-**Backups & Data Moves (Plus)** — archiving, syncing, and transferring efficiently.

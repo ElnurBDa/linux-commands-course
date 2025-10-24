@@ -3,19 +3,12 @@ title: "Text Processing (Core → Plus)"
 sub_title: "Linux Commands Course · Section 6"
 author: "IDSchool"
 theme:
-  name: catppuccin-mocha
+  name: gruvbox-dark
 options:
   implicit_slide_ends: true
   list_item_newlines: 1
 ---
 
-Goal
-====
-Learn how to **extract, filter, transform, and summarize text** using command-line tools.
-
-You’ll move from basic searches to structured reporting and automation-ready processing.
-
----
 
 Filtering Lines — `grep`
 ========================
@@ -315,28 +308,6 @@ curl -s https://api.github.com/users/torvalds | jq '.name, .public_repos'
 
 ---
 
-Practical Example
-=================
-Count how many users use `/bin/bash`:
-
-```bash
-grep '/bin/bash' /etc/passwd | cut -d: -f1 | wc -l
-```
-
-Or display usernames sorted by shell:
-
-```bash
-awk -F: '{print $7, $1}' /etc/passwd | sort
-```
-
-Convert all text to uppercase while filtering certain lines:
-
-```bash
-grep "info" logs.txt | tr '[:lower:]' '[:upper:]' | tee filtered.txt
-```
-
----
-
 Recap
 =====
 - **grep** — match/filter text using regex  
@@ -350,18 +321,4 @@ Together, these make Linux text processing infinitely flexible.
 
 ---
 
-Practice
-========
-1. Print only usernames from `/etc/passwd` using `cut`.  
-2. Find all lines containing “error” in `/var/log/syslog`.  
-3. Replace “failed” with “FAILED” in-place using `sed -i`.  
-4. Print fields 1 and 7 of `/etc/passwd` with `awk`.  
-5. Use `iconv` to convert a file from Latin‑1 to UTF‑8.  
-6. Parse JSON output from an API using `jq`.  
-7. Combine `grep`, `tr`, and `tee` into one pipeline to create uppercase filtered logs.
 
----
-
-Next Up
-=======
-**Archiving & Compression (Core)** — tar, gzip, zip, and beyond.

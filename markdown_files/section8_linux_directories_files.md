@@ -3,19 +3,12 @@ title: "Essential Linux Directories & Files (Core)"
 sub_title: "Linux Commands Course · Section 8"
 author: "IDSchool"
 theme:
-  name: catppuccin-mocha
+  name: gruvbox-dark
 options:
   implicit_slide_ends: true
   list_item_newlines: 1
 ---
 
-Goal
-====
-Understand the **layout of the Linux filesystem** and the **key configuration files** that make the system work.
-
-Knowing what lives where helps you troubleshoot, configure, and navigate with confidence.
-
----
 
 Linux Filesystem Philosophy
 ===========================
@@ -370,16 +363,4 @@ Recap
 
 ---
 
-Practice
-========
-1. List files in `/etc` and identify one configuration file you recognize.  
-2. View `/proc/cpuinfo` and `/proc/meminfo`.  
-3. Check your user entry in `/etc/passwd`.  
-4. Find your DNS nameservers in `/etc/resolv.conf`.  
-5. Open `~/.bashrc` and add a custom alias (then reload with `source ~/.bashrc`).
 
----
-
-Next Up
-=======
-**Processes, Services & Logs (Core)** — understanding how Linux runs and monitors programs.

@@ -3,19 +3,12 @@ title: "Navigation & Filesystem Concepts (Core)"
 sub_title: "Linux Commands Course · Section 1"
 author: "IDSchool"
 theme:
-  name: catppuccin-mocha
+  name: gruvbox-dark
 options:
   implicit_slide_ends: true
   list_item_newlines: 1
 ---
 
-Goal
-====
-Learn how to **move around** the Linux filesystem, list what’s inside, and understand paths and patterns.
-
-After this, you’ll always know *where you are* and *how to get anywhere*.
-
----
 
 What is a File?
 ===============
@@ -353,16 +346,4 @@ Recap
 
 ---
 
-Practice
-========
-1. Show your current directory.  
-2. List all files, including hidden ones.  
-3. Change to `/etc` and list files sorted by modification time.  
-4. Create three folders at once: `mkdir test/{a,b,c}`.  
-5. Print your `$PATH` and identify the first directory in it.
 
----
-
-Next Up
-=======
-**Files & Directories (Core)** — creating, copying, moving, deleting.

@@ -3,19 +3,12 @@ title: "Permissions & Ownership (Core)"
 sub_title: "Linux Commands Course · Section 3"
 author: "IDSchool"
 theme:
-  name: catppuccin-mocha
+  name: gruvbox-dark
 options:
   implicit_slide_ends: true
   list_item_newlines: 1
 ---
 
-Goal
-====
-Understand **who can access files**, **how**, and **how to control it**.
-
-You’ll learn to read permission strings, modify them safely, and manage ownership properly.
-
----
 
 Why Permissions Matter
 ======================
@@ -284,16 +277,6 @@ makes it world‑writable but protected by sticky bit.
 
 ---
 
-Security Best Practices
-=======================
-- Restrict write access whenever possible.  
-- Use groups instead of `777`.  
-- Never set setuid on custom scripts.  
-- Review permissions regularly with `find / -perm -4000` (as root).  
-- Keep `/tmp` sticky.
-
----
-
 Recap
 =====
 - View: `ls -l`  
@@ -306,17 +289,4 @@ Permissions define *who* can read, write, or execute — the backbone of Linux s
 
 ---
 
-Practice
-========
-1. Create a script `hello.sh` and make it executable.  
-2. Change its group to `students`.  
-3. Remove read access for others.  
-4. Create `/shared` directory, give group write access, and apply `setgid`.  
-5. Create `/public` directory with sticky bit so only owners can delete their files.  
-6. Use `ls -l` to verify your results.
 
----
-
-Next Up
-=======
-**Finding Things (Core)** — searching for files, text, and commands efficiently.

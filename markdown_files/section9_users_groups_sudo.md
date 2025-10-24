@@ -3,19 +3,12 @@ title: "Users, Groups & Sudo (Core)"
 sub_title: "Linux Commands Course · Section 9"
 author: "IDSchool"
 theme:
-  name: catppuccin-mocha
+  name: gruvbox-dark
 options:
   implicit_slide_ends: true
   list_item_newlines: 1
 ---
 
-Goal
-====
-Learn how to **inspect and manage users and groups**, and understand **sudo** — the gateway to administrative privileges.
-
-This section is foundational for system administration and security.
-
----
 
 Users and Groups in Linux
 =========================
@@ -391,17 +384,4 @@ Recap
 
 ---
 
-Practice
-========
-1. Create a new user `labuser` with a home directory and bash shell.  
-2. Set a password and add them to the `sudo` group.  
-3. Create a group called `developers` and add `labuser` to it.  
-4. Check the user’s groups with `id`.  
-5. Edit sudo rules with `visudo` to allow only `/usr/bin/apt` commands.  
-6. Log in as `labuser` and test `sudo whoami`.
 
----
-
-Next Up
-=======
-**Processes, Services & Logs (Core)** — managing programs, monitoring, and troubleshooting.

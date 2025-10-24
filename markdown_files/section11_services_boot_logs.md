@@ -3,19 +3,12 @@ title: "Services, Boot & Logs (Core)"
 sub_title: "Linux Commands Course · Section 11"
 author: "IDSchool"
 theme:
-  name: catppuccin-mocha
+  name: gruvbox-dark
 options:
   implicit_slide_ends: true
   list_item_newlines: 1
 ---
 
-Goal
-====
-Learn how to **manage system services**, **control boot behavior**, and **inspect logs** using modern `systemd` tools.
-
-You’ll understand how Linux starts, how services run, and where to find diagnostic information.
-
----
 
 What Is `systemd`?
 ==================
@@ -261,17 +254,4 @@ Together, these tools give total control over system services and events.
 
 ---
 
-Practice
-========
-1. Check which target your system boots into.  
-2. Restart the SSH or networking service.  
-3. Enable automatic NTP time sync with `timedatectl`.  
-4. View all logs since last boot.  
-5. Display only authentication errors from the system journal.  
-6. Examine `/var/log/syslog` for today’s entries.  
 
----
-
-Next Up
-=======
-**Networking (Core)** — exploring interfaces, routes, and connectivity tools.

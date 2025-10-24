@@ -3,19 +3,12 @@ title: "Scheduling (Core)"
 sub_title: "Linux Commands Course · Section 15"
 author: "IDSchool"
 theme:
-  name: catppuccin-mocha
+  name: gruvbox-dark
 options:
   implicit_slide_ends: true
   list_item_newlines: 1
 ---
 
-Goal
-====
-Learn how to **automate and schedule tasks** in Linux using `cron` for recurring jobs and `at` for one-time jobs.
-
-Automation is essential for backups, maintenance, and system monitoring.
-
----
 
 What Is Job Scheduling?
 =======================
@@ -232,16 +225,4 @@ Automation keeps your system consistent, efficient, and hands-free.
 
 ---
 
-Practice
-========
-1. Schedule a command to run every minute (for testing).  
-2. Add a daily cleanup job at midnight with `crontab -e`.  
-3. View your current crontab with `crontab -l`.  
-4. Schedule a one-time notification with `at now + 2 minutes`.  
-5. Check logs to confirm that your jobs ran successfully.
 
----
-
-Next Up
-=======
-**Bash Scripting (Core → Plus)** — automating with logic, variables, and control flow.

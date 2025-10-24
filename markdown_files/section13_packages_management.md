@@ -3,19 +3,12 @@ title: "Packages & Software Management (Core)"
 sub_title: "Linux Commands Course · Section 13"
 author: "IDSchool"
 theme:
-  name: catppuccin-mocha
+  name: gruvbox-dark
 options:
   implicit_slide_ends: true
   list_item_newlines: 1
 ---
 
-Goal
-====
-Learn how to **install, update, and manage software** in Linux using package managers.
-
-You’ll understand what packages are, how repositories work, and how to use the major tools — especially `apt` on Debian/Ubuntu systems.
-
----
 
 What Are Packages?
 ==================
@@ -333,16 +326,6 @@ Comparing Package Managers
 
 ---
 
-Tips & Best Practices
-=====================
-- Always run `sudo apt update` before installing.  
-- Prefer repos over manual `.deb` downloads — ensures security & updates.  
-- Avoid mixing package types (e.g., `.deb` + Snap + Flatpak) unless needed.  
-- Periodically clean unused packages with `autoremove`.  
-- Review installed packages with `apt list --installed`.
-
----
-
 Recap
 =====
 - **APT** — update, install, remove, purge, inspect packages  
@@ -355,17 +338,4 @@ Mastering package management makes system maintenance fast, secure, and reliable
 
 ---
 
-Practice
-========
-1. Run `sudo apt update && sudo apt upgrade`.  
-2. Install and remove `curl` using APT.  
-3. Install a `.deb` package manually and fix dependencies.  
-4. List all installed packages containing “python”.  
-5. Query info for an installed package with `apt show`.  
-6. Try installing and launching a Snap or Flatpak application.
 
----
-
-Next Up
-=======
-**Disks & Filesystems (Core)** — managing partitions, mounts, and storage usage.

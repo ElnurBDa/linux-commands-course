@@ -3,19 +3,12 @@ title: "Archiving & Compression (Core)"
 sub_title: "Linux Commands Course · Section 7"
 author: "IDSchool"
 theme:
-  name: catppuccin-mocha
+  name: gruvbox-dark
 options:
   implicit_slide_ends: true
   list_item_newlines: 1
 ---
 
-Goal
-====
-Learn how to **bundle and compress files** efficiently on Linux.
-
-You’ll understand how to create archives, unpack them, and choose the right compression tool for each situation.
-
----
 
 What Is Archiving?
 ==================
@@ -301,17 +294,4 @@ Recap
 
 ---
 
-Practice
-========
-1. Create a tar archive of your home directory.  
-2. Compress it using gzip, bzip2, and xz — compare sizes.  
-3. Extract each version and verify integrity.  
-4. Create a `.zip` archive of your project folder.  
-5. List contents without extracting.  
-6. Try using `zstd` for a fast modern backup.
 
----
-
-Next Up
-=======
-**Essential Linux Directories (Core)** — understanding the structure of the filesystem.

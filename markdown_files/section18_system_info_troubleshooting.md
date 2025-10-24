@@ -3,19 +3,12 @@ title: "System Information & Troubleshooting (Plus)"
 sub_title: "Linux Commands Course · Section 18"
 author: "IDSchool"
 theme:
-  name: catppuccin-mocha
+  name: gruvbox-dark
 options:
   implicit_slide_ends: true
   list_item_newlines: 1
 ---
 
-Goal
-====
-Learn how to **gather system information, monitor performance, and inspect hardware** using built-in Linux commands.
-
-This helps you diagnose issues, verify configurations, and understand your system’s environment.
-
----
 
 System Facts — `uname`, `hostnamectl`, `lsb_release`
 ====================================================
@@ -264,17 +257,4 @@ These commands together let you audit, benchmark, and troubleshoot your Linux sy
 
 ---
 
-Practice
-========
-1. Find your kernel version and CPU model.  
-2. Check uptime and system load averages.  
-3. View available memory and swap usage.  
-4. List all PCI and USB devices.  
-5. Get BIOS info using `dmidecode -t bios`.  
-6. Run a quick system report combining the above tools.
 
----
-
-Next Up
-=======
-**Security & Firewall**

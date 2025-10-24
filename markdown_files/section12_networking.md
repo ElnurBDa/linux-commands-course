@@ -3,19 +3,12 @@ title: "Networking (Core)"
 sub_title: "Linux Commands Course · Section 12"
 author: "IDSchool"
 theme:
-  name: catppuccin-mocha
+  name: gruvbox-dark
 options:
   implicit_slide_ends: true
   list_item_newlines: 1
 ---
 
-Goal
-====
-Learn to **inspect, test, and interact with network connections** on Linux.
-
-You’ll explore interfaces, routing, sockets, connectivity tests, DNS, HTTP tools, and remote access.
-
----
 
 Network Interfaces — `ip a`
 ===========================
@@ -312,18 +305,4 @@ These tools form the backbone of network troubleshooting and configuration.
 
 ---
 
-Practice
-========
-1. List your current IP address and default route.  
-2. Show which services are listening on ports.  
-3. Test connectivity to `google.com` and view the route it takes.  
-4. Query DNS for the MX records of `example.com`.  
-5. Download a web page with `curl` and `wget`.  
-6. Copy a local file to a remote system using `scp`.  
-7. Bring your wired connection down and up again with `nmcli`.
 
----
-
-Next Up
-=======
-**Packages & Software Management (Core)** — installing, updating, and removing software.

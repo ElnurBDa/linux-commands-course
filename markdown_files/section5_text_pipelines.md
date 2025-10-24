@@ -3,19 +3,12 @@ title: "Text Viewing & Pipelines (Core)"
 sub_title: "Linux Commands Course · Section 5"
 author: "IDSchool"
 theme:
-  name: catppuccin-mocha
+  name: gruvbox-dark
 options:
   implicit_slide_ends: true
   list_item_newlines: 1
 ---
 
-Goal
-====
-Learn how to **view, count, redirect, and connect text streams** effectively.
-
-Linux treats data as text flowing through pipelines — mastering this is key to powerful command-line work.
-
----
 
 Viewing Text — `less`
 =====================
@@ -295,17 +288,4 @@ Together, these form the foundation of Linux text processing.
 
 ---
 
-Practice
-========
-1. Count how many users have `/bin/bash` in `/etc/passwd`.  
-2. Redirect all output of `ls -lh /etc` into a file.  
-3. Append the date to that same file using `>>`.  
-4. Merge two lists of names using `paste`.  
-5. Compare two text files for common lines using `comm`.  
-6. Use a pipeline with `tee` to save and count results simultaneously.
 
----
-
-Next Up
-=======
-**Text Processing (Core → Plus)** — pattern matching and stream editing with grep, sed, and awk.
