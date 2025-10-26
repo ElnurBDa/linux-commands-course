@@ -10,14 +10,6 @@ options:
   list_item_newlines: 1
 ---
 
-Why this section
-================
-You’ll get comfortable with the terminal, understand what the **shell** is, and master how to **look up help** quickly.
-
-By the end, you’ll confidently identify commands, read their docs, and keep your session tidy.
-
----
-
 Terminal vs Shell
 =================
 A **terminal** is the window where you type.
