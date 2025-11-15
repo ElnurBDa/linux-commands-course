@@ -34,3 +34,13 @@ presenterm section0_shell_help_core.md
 ```bash
 for f in *.md; do presenterm -e "$f"; done
 ```
+
+## PDF to cut
+```bash
+pdftk practice.pdf cat 1 2 3 4 5 6 7 8 9 11 13 15 47 output selected_slides.pdf
+```
+
+## PDF to unite
+```bash
+pdfunite section*.pdf combined_manual.pdf
+```

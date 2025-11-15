@@ -221,9 +221,8 @@ Section 4: Finding Things (Core)
 2. Run `whereis` on `ls` and identify its man page location
 3. Search your home directory for files larger than 1MB
 4. Exclude `.cache` directories from a recursive search
-5. Use `locate` to find any "shadow" file, then refresh the database
-6. Find all `.txt` files in your home directory
-7. Search for files modified in the last 7 days
+5. Find all `.txt` files in your home directory
+6. Search for files modified in the last 7 days
 
 ---
 
@@ -243,14 +242,10 @@ find ~ -type f -size +1M
 # 4. Exclude .cache directories from a recursive search
 find ~ -type f -not -path "*/.cache/*"
 
-# 5. Use locate to find any "shadow" file, then refresh the database
-locate shadow
-sudo updatedb
-
-# 6. Find all .txt files in your home directory
+# 5. Find all .txt files in your home directory
 find ~ -name "*.txt"
 
-# 7. Search for files modified in the last 7 days
+# 6. Search for files modified in the last 7 days
 find ~ -type f -mtime -7
 ```
 
@@ -262,13 +257,12 @@ Section 5: Text Viewing & Pipelines (Core)
 **Objective**: Master text processing and pipeline operations.
 
 **Tasks**:
-1. Count how many users have `/bin/bash` in `/etc/passwd`
+1. Count how many users have `/bin/bash` in `/etc/passwd`. (Research what is /etc/passwd for?)
 2. Redirect all output of `ls -lh /etc` into a file called `etc_list.txt`
 3. Append the current date to that same file using `>>`
 4. Create two text files with names and merge them using `paste`
-5. Compare two text files for common lines using `comm`
-6. Use a pipeline with `tee` to save and count results simultaneously
-7. Count lines, words, and characters in `/etc/passwd`
+5. Use a pipeline with `tee` to save and count results simultaneously
+6. Count lines, words, and characters in `/etc/passwd`
 
 ---
 
@@ -290,16 +284,10 @@ echo -e "Alice\nBob\nCharlie" > names1.txt
 echo -e "David\nEve\nFrank" > names2.txt
 paste names1.txt names2.txt
 
-# 5. Compare two text files for common lines using comm
-# First, sort both files
-sort names1.txt > names1_sorted.txt
-sort names2.txt > names2_sorted.txt
-comm names1_sorted.txt names2_sorted.txt
-
-# 6. Use a pipeline with tee to save and count results simultaneously
+# 5. Use a pipeline with tee to save and count results simultaneously
 ls /etc | tee file_list.txt | wc -l
 
-# 7. Count lines, words, and characters in /etc/passwd
+# 6. Count lines, words, and characters in /etc/passwd
 wc /etc/passwd
 ```
 
@@ -312,12 +300,9 @@ Section 6: Text Processing (Core → Plus)
 
 **Tasks**:
 1. Print only usernames from `/etc/passwd` using `cut`
-2. Find all lines containing "error" in `/var/log/syslog` (if accessible)
-3. Replace "failed" with "FAILED" in a test file using `sed -i`
-4. Print fields 1 and 7 of `/etc/passwd` with `awk`
-5. Convert a text file from one encoding to another using `iconv`
-6. Parse JSON output from an API using `jq` (if available)
-7. Combine `grep`, `tr`, and `tee` into one pipeline
+2. Replace "failed" with "FAILED" in a test file using `sed -i`
+3. Print fields 1 and 7 of `/etc/passwd` with `awk`
+4. Combine `grep`, `tr`, and `tee` into one pipeline
 
 ---
 
@@ -328,25 +313,15 @@ Section 6: Solution
 # 1. Print only usernames from /etc/passwd using cut
 cut -d: -f1 /etc/passwd
 
-# 2. Find all lines containing "error" in /var/log/syslog
-sudo grep "error" /var/log/syslog
-
-# 3. Replace "failed" with "FAILED" in a test file using sed -i
+# 2. Replace "failed" with "FAILED" in a test file using sed -i
 echo "The operation failed" > test.txt
 sed -i 's/failed/FAILED/g' test.txt
 cat test.txt
 
-# 4. Print fields 1 and 7 of /etc/passwd with awk
+# 3. Print fields 1 and 7 of /etc/passwd with awk
 awk -F: '{print $1, $7}' /etc/passwd
 
-# 5. Convert a text file from one encoding to another using iconv
-echo "Test file" > test_utf8.txt
-iconv -f UTF-8 -t ISO-8859-1 test_utf8.txt > test_latin1.txt
-
-# 6. Parse JSON output from an API using jq (if available)
-curl -s https://api.github.com/users/torvalds | jq '.name, .public_repos'
-
-# 7. Combine grep, tr, and tee into one pipeline
+# 4. Combine grep, tr, and tee into one pipeline
 echo -e "info: This is information\nerror: This is an error\ninfo: More information" > logs.txt
 grep "info" logs.txt | tr '[:lower:]' '[:upper:]' | tee filtered_logs.txt
 ```
@@ -1153,17 +1128,14 @@ Section 21: Text Editors (Core)
 **Objective**: Master Nano and Vi/Vim text editors for Linux administration.
 
 **Tasks**:
-1. Open `/etc/hosts` in Nano and add a comment line, then save and exit
-2. Open a file in Vi, enter Insert mode, write text, and save with `:wq`
-3. Practice deleting, copying, and pasting lines in Vi
+1. Open `/etc/hosts` in Nano and add a comment line, then save and exit. What is this file for? Research! And what does comment do?
+2. Open a file in Vi, enter Insert mode, write text, and save and quit.
+3. Practice deleting, copying, and pasting lines in Vi. Use Any text.
 4. Enable syntax highlighting in Nano and Vim
-5. Compare the two editors — which feels more comfortable for you?
-6. Create a simple script using both editors
-7. Practice advanced Vi commands and navigation
 
 ---
 
-Section 21.1: Solution
+Section 21: Solution
 =====================
 
 ```bash
@@ -1186,42 +1158,11 @@ vi practice.txt
 # Use 'yy' to copy a line
 # Use 'p' to paste
 # Use 'u' to undo
-```
----
-
-Section 21.2: Solution
-=====================
-
-```bash
 
 # 4. Enable syntax highlighting in Nano and Vim
 # For Nano: Press Ctrl+X, then Ctrl+R, then Ctrl+W for syntax highlighting
 # For Vim: Type :syntax on
-
-# 5. Compare the two editors — which feels more comfortable for you?
-# Try editing the same file with both editors
-
-# 6. Create a simple script using both editors
-nano simple_script.sh
-# Add: #!/bin/bash
-# Add: echo "Hello from Nano"
-# Save and exit
-
-vi simple_script2.sh
-# Press 'i', add: #!/bin/bash
-# Add: echo "Hello from Vi"
-# Press Esc, type :wq
-
-# 7. Practice advanced Vi commands and navigation
-vi advanced_practice.txt
-# Use: /search_term to search
-# Use: n to find next occurrence
-# Use: :set number to show line numbers
-# Use: G to go to end of file
-# Use: gg to go to beginning of file
-# Use: :q! to quit without saving
 ```
-
 ---
 
 Congratulations!
