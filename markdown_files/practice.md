@@ -1,7 +1,7 @@
 ---
 title: "Linux Commands Course - Practice Exercises"
 sub_title: "Hands-on exercises for each section"
-author: "IDSchool"
+author: "ElnurBDa"
 theme:
   name: gruvbox-dark
 options:

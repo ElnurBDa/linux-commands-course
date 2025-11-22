@@ -1,7 +1,7 @@
 ---
 title: "Text Processing (Core → Plus)"
 sub_title: "Linux Commands Course · Section 6"
-author: "IDSchool"
+author: "ElnurBDa"
 theme:
   name: gruvbox-dark
 options:

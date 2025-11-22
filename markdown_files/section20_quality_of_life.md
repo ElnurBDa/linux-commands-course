@@ -1,7 +1,7 @@
 ---
 title: "Quality-of-Life & Modern CLI Helpers (Optional)"
 sub_title: "Linux Commands Course · Section 20"
-author: "IDSchool"
+author: "ElnurBDa"
 theme:
   name: gruvbox-dark
 options:

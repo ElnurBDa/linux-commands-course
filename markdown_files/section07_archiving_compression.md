@@ -1,7 +1,7 @@
 ---
 title: "Archiving & Compression (Core)"
 sub_title: "Linux Commands Course · Section 7"
-author: "IDSchool"
+author: "ElnurBDa"
 theme:
   name: gruvbox-dark
 options:

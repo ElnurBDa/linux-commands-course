@@ -1,7 +1,7 @@
 ---
 title: "Permissions & Ownership (Core)"
 sub_title: "Linux Commands Course · Section 3"
-author: "IDSchool"
+author: "ElnurBDa"
 theme:
   name: gruvbox-dark
 options:

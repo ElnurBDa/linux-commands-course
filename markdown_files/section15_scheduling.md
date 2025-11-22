@@ -1,7 +1,7 @@
 ---
 title: "Scheduling (Core)"
 sub_title: "Linux Commands Course · Section 15"
-author: "IDSchool"
+author: "ElnurBDa"
 theme:
   name: gruvbox-dark
 options:

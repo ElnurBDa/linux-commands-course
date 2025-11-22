@@ -1,7 +1,7 @@
 ---
 title: "Bash Scripting (Core → Plus)"
 sub_title: "Linux Commands Course · Section 16"
-author: "IDSchool"
+author: "ElnurBDa"
 theme:
   name: gruvbox-dark
 options:

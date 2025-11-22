@@ -1,7 +1,7 @@
 ---
 title: "Files & Directories (Core)"
 sub_title: "Linux Commands Course · Section 2"
-author: "IDSchool"
+author: "ElnurBDa"
 theme:
   name: gruvbox-dark
 options:

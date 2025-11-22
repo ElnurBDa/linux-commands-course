@@ -1,7 +1,7 @@
 ---
 title: "Finding Things (Core)"
 sub_title: "Linux Commands Course · Section 4"
-author: "IDSchool"
+author: "ElnurBDa"
 theme:
   name: gruvbox-dark
 options:

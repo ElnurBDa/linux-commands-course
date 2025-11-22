@@ -1,7 +1,7 @@
 ---
 title: "Navigation & Filesystem Concepts (Core)"
 sub_title: "Linux Commands Course · Section 1"
-author: "IDSchool"
+author: "ElnurBDa"
 theme:
   name: gruvbox-dark
 options:

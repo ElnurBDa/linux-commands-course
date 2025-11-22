@@ -1,7 +1,7 @@
 ---
 title: "Essential Linux Directories & Files (Core)"
 sub_title: "Linux Commands Course · Section 8"
-author: "IDSchool"
+author: "ElnurBDa"
 theme:
   name: gruvbox-dark
 options:

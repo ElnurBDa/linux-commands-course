@@ -1,7 +1,7 @@
 ---
 title: "Security & Firewall (Plus)"
 sub_title: "Linux Commands Course · Section 19"
-author: "IDSchool"
+author: "ElnurBDa"
 theme:
   name: gruvbox-dark
 options:

@@ -1,7 +1,7 @@
 ---
 title: "System Information & Troubleshooting (Plus)"
 sub_title: "Linux Commands Course · Section 18"
-author: "IDSchool"
+author: "ElnurBDa"
 theme:
   name: gruvbox-dark
 options:

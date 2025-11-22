@@ -1,7 +1,7 @@
 ---
 title: "Users, Groups & Sudo (Core)"
 sub_title: "Linux Commands Course · Section 9"
-author: "IDSchool"
+author: "ElnurBDa"
 theme:
   name: gruvbox-dark
 options:

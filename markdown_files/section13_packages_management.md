@@ -1,7 +1,7 @@
 ---
 title: "Packages & Software Management (Core)"
 sub_title: "Linux Commands Course · Section 13"
-author: "IDSchool"
+author: "ElnurBDa"
 theme:
   name: gruvbox-dark
 options:
