@@ -5,6 +5,8 @@ pkgs.mkShell {
     # PDF tools
     pdftk
     poppler_utils
+    # for presentations
+    presenterm
 
     # Python with WeasyPrint
     (python313.withPackages (ps: [
