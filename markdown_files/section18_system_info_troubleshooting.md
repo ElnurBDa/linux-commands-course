@@ -247,14 +247,16 @@ This gives an at-a-glance report of your machine.
 
 ---
 
-Recap
-=====
-- **System facts:** `uname`, `hostnamectl`, `lsb_release`, `/etc/os-release`  
-- **Health:** `uptime`, `free -h`, `vmstat`, `iostat`, `dmesg`  
-- **Hardware:** `lscpu`, `lsmem`, `lspci`, `lsusb`, `dmidecode`  
 
-These commands together let you audit, benchmark, and troubleshoot your Linux system effectively.
+<!-- end_slide -->
+<!-- font_size: 5 -->
+<!-- alignment: center -->
+<!-- jump_to_middle -->
 
----
+# Thanks!
+
+<!-- font_size: 1 -->
+
+#### By ElnurBDa
 
 

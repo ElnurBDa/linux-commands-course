@@ -202,21 +202,14 @@ Store them in `~/.bashrc` to persist.
 
 ---
 
-Recap
-=====
-- **tldr** — short and friendly command reference  
-- **fd** — faster file search  
-- **ripgrep (rg)** — next-gen grep  
-- **bat** — colorful file viewer  
-- **btop**, **nload**, **iftop** — intuitive performance monitors  
 
-These tools make everyday terminal work faster, clearer, and more enjoyable.
+<!-- end_slide -->
+<!-- font_size: 5 -->
+<!-- alignment: center -->
+<!-- jump_to_middle -->
 
----
+# Thanks!
 
+<!-- font_size: 1 -->
 
-Congratulations!
-================
-You’ve completed the **Linux Commands Course** — from fundamentals to modern workflow tools.
-
-Next: combine your skills to create your own shell utilities and automation scripts!
+#### By ElnurBDa

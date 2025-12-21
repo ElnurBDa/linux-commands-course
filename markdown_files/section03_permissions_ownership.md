@@ -277,16 +277,15 @@ makes it world‑writable but protected by sticky bit.
 
 ---
 
-Recap
-=====
-- View: `ls -l`  
-- Change: `chmod` (symbolic or octal)  
-- Ownership: `chown`, `chgrp`  
-- Defaults: `umask`  
-- Special bits: `setuid`, `setgid`, `sticky`  
+<!-- end_slide -->
+<!-- font_size: 5 -->
+<!-- alignment: center -->
+<!-- jump_to_middle -->
 
-Permissions define *who* can read, write, or execute — the backbone of Linux security.
+# Thanks!
 
----
+<!-- font_size: 1 -->
+
+#### By ElnurBDa
 
 

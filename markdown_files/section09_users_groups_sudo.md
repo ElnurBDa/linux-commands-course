@@ -373,15 +373,13 @@ sudo gpasswd developers
 
 ---
 
-Recap
-=====
-- Inspect users: `id`, `whoami`, `groups`, `who`, `w`, `last`  
-- Manage users: `useradd`, `usermod`, `userdel`, `passwd`, `chage`  
-- Manage groups: `groupadd`, `gpasswd`  
-- Privilege control: `sudo`, `visudo`  
+<!-- end_slide -->
+<!-- font_size: 5 -->
+<!-- alignment: center -->
+<!-- jump_to_middle -->
 
-**sudo** is the bridge between normal users and root privileges — use it carefully.
+# Thanks!
 
----
+<!-- font_size: 1 -->
 
-
+#### By ElnurBDa

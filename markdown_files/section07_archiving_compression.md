@@ -285,13 +285,15 @@ This allows archiving without intermediate files.
 
 ---
 
-Recap
-=====
-- **tar** — archive multiple files (`-cvf`, `-xvf`)  
-- **gzip / bzip2 / xz / zstd** — compression algorithms  
-- **zip / unzip** — cross-platform archives  
-- Choose based on speed, ratio, and compatibility needs.
+<!-- end_slide -->
+<!-- font_size: 5 -->
+<!-- alignment: center -->
+<!-- jump_to_middle -->
 
----
+# Thanks!
+
+<!-- font_size: 1 -->
+
+#### By ElnurBDa
 
 

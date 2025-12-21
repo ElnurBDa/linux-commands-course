@@ -196,12 +196,14 @@ Quick Comparison — Nano vs Vi
 
 ---
 
-Recap
-=====
-- **Nano** — simple editor with intuitive shortcuts.  
-- **Vi/Vim** — modal editor with powerful commands.  
-- Both are preinstalled on nearly all Linux systems.  
-- Knowing both ensures you can edit files on any Linux machine.
 
----
+<!-- end_slide -->
+<!-- font_size: 5 -->
+<!-- alignment: center -->
+<!-- jump_to_middle -->
 
+# Thanks!
+
+<!-- font_size: 1 -->
+
+#### By ElnurBDa

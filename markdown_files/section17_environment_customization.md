@@ -259,16 +259,16 @@ This will auto-load for all users.
 
 ---
 
-Recap
-=====
-- **Startup files:** `.bashrc`, `.bash_profile`, `.profile`, `/etc/profile`  
-- **Variables:** use `export` to persist and `PATH` to find commands  
-- **Aliases:** make common tasks faster  
-- **bash-completion:** improves workflow  
-- **History tuning:** timestamped and filtered history improves traceability  
 
-Customizing your shell makes Linux truly *yours*.
+<!-- end_slide -->
+<!-- font_size: 5 -->
+<!-- alignment: center -->
+<!-- jump_to_middle -->
 
----
+# Thanks!
+
+<!-- font_size: 1 -->
+
+#### By ElnurBDa
 
 

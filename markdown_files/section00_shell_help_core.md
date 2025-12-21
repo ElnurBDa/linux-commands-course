@@ -251,10 +251,13 @@ Keyboard shortcuts (must‑know)
 
 ---
 
-Summary
-=======
-- Shell: the interpreter you talk to (`bash`, `zsh`)
-- Identify commands with `type` / `which`
-- Learn quickly via `--help`, `help`, `man`, `whatis`, `apropos`, `info`
-- Keep sessions tidy with `history`, `clear`, `reset`
-- Exit cleanly with `exit` or **Ctrl+D**
+<!-- end_slide -->
+<!-- font_size: 5 -->
+<!-- alignment: center -->
+<!-- jump_to_middle -->
+
+# Thanks!
+
+<!-- font_size: 1 -->
+
+#### By ElnurBDa

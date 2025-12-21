@@ -306,16 +306,14 @@ Make it permanent in `/etc/fstab`:
 
 ---
 
-Recap
-=====
-- Inventory: `lsblk`, `blkid`, `df -h`, `du -sh *`  
-- Mounting: `mount`, `umount`, `/etc/fstab`  
-- Partitioning (demo): `fdisk`, `parted`  
-- Filesystems: `mkfs`, `fsck`, `tune2fs`, `resize2fs`  
-- Swap: `swapon`, `swapoff`, `/swapfile`  
 
-These commands form the foundation of disk and storage management in Linux.
+<!-- end_slide -->
+<!-- font_size: 5 -->
+<!-- alignment: center -->
+<!-- jump_to_middle -->
 
----
+# Thanks!
 
+<!-- font_size: 1 -->
 
+#### By ElnurBDa

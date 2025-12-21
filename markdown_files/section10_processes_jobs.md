@@ -312,16 +312,15 @@ These are great for debugging and audits.
 
 ---
 
-Recap
-=====
-- View: `ps aux`, `top`, `htop`
-- Find / kill: `pgrep`, `pkill`, `kill`, `killall`
-- Adjust priority: `nice`, `renice`
-- Manage jobs: `&`, `jobs`, `fg`, `bg`, `disown`, `nohup`
-- Know signals: graceful vs forceful termination
+<!-- end_slide -->
+<!-- font_size: 5 -->
+<!-- alignment: center -->
+<!-- jump_to_middle -->
 
-Mastering these makes you fluent in process control and multitasking.
+# Thanks!
 
----
+<!-- font_size: 1 -->
+
+#### By ElnurBDa
 
 

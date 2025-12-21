@@ -243,15 +243,13 @@ You’ll often use `systemctl` and `journalctl` together when troubleshooting.
 
 ---
 
-Recap
-=====
-- **Services:** manage with `systemctl start/stop/restart/status`  
-- **Boot control:** `systemctl get-default`, `isolate`, `set-default`  
-- **Time management:** `timedatectl`  
-- **Logs:** use `journalctl` and `/var/log/` for full visibility  
+<!-- end_slide -->
+<!-- font_size: 5 -->
+<!-- alignment: center -->
+<!-- jump_to_middle -->
 
-Together, these tools give total control over system services and events.
+# Thanks!
 
----
+<!-- font_size: 1 -->
 
-
+#### By ElnurBDa

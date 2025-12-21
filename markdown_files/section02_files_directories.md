@@ -299,17 +299,13 @@ tail -f /var/log/syslog | grep "error"
 
 ---
 
-Recap
-=====
-- **Create** files → `touch`  
-- **Read** → `cat`, `less`, `nl`, `head`, `tail -f`  
-- **Modify / Move** → `cp`, `mv`, `rm`  
-- **Directories** → `mkdir -p`, `rmdir`  
-- **Inspect** → `stat`, `file`  
-- **Links** → `ln`, `ln -s`
+<!-- end_slide -->
+<!-- font_size: 5 -->
+<!-- alignment: center -->
+<!-- jump_to_middle -->
 
-These are your daily drivers for file management in Linux.
+# Thanks!
 
----
+<!-- font_size: 1 -->
 
-
+#### By ElnurBDa

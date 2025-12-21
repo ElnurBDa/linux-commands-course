@@ -326,16 +326,13 @@ Comparing Package Managers
 
 ---
 
-Recap
-=====
-- **APT** — update, install, remove, purge, inspect packages  
-- **Repositories** — centralized sources of verified software  
-- **dpkg** — for manual `.deb` installs  
-- **dnf / rpm**, **pacman**, **zypper** — alternatives for other distros  
-- **snap / flatpak** — universal sandboxed packages
+<!-- end_slide -->
+<!-- font_size: 5 -->
+<!-- alignment: center -->
+<!-- jump_to_middle -->
 
-Mastering package management makes system maintenance fast, secure, and reliable.
+# Thanks!
 
----
+<!-- font_size: 1 -->
 
-
+#### By ElnurBDa

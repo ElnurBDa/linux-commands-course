@@ -353,14 +353,13 @@ Keep personal shell tweaks in `.bashrc`, system‑wide ones in `/etc/bash.bashrc
 
 ---
 
-Recap
-=====
-- Linux filesystem is a single tree rooted at `/`.  
-- Know what each main directory stores.  
-- Learn critical system files under `/etc` and your home.  
-- Configuration lives in plain text.  
-- Reading these files (not editing them blindly) is key to system literacy.
+<!-- end_slide -->
+<!-- font_size: 5 -->
+<!-- alignment: center -->
+<!-- jump_to_middle -->
 
----
+# Thanks!
 
+<!-- font_size: 1 -->
 
+#### By ElnurBDa

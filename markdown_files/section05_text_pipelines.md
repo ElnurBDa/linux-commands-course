@@ -275,17 +275,13 @@ ps aux | grep ssh | tee ssh_processes.txt | wc -l
 
 ---
 
-Recap
-=====
-- **less** — scroll through text interactively  
-- **wc** — count lines, words, or characters  
-- **>**, `>>`, `2>`, `&>` — redirect output and errors  
-- **|** — pipe between commands  
-- **<<**, `<<<` — here-docs and here-strings  
-- **tee**, **paste**, **join**, **comm** — split, merge, and compare streams  
+<!-- end_slide -->
+<!-- font_size: 5 -->
+<!-- alignment: center -->
+<!-- jump_to_middle -->
 
-Together, these form the foundation of Linux text processing.
+# Thanks!
 
----
+<!-- font_size: 1 -->
 
-
+#### By ElnurBDa

@@ -21,6 +21,8 @@ Examples:
 - Binary files — contain executable or machine data.
 - Directories — special files that list other files.
 
+![](assets/linux-file-meme.jpg)
+
 ---
 
 Long Format (`ls -l`) Explained
@@ -334,16 +336,15 @@ If multiple versions exist, the first one found in `$PATH` runs.
 
 ---
 
-Recap
-=====
-- `pwd` — print current directory  
-- `ls`, `ls -lah` — list files with detail  
-- `cd`, `cd ..`, `cd -` — move around  
-- `tree` — visual hierarchy  
-- Absolute vs relative paths — know your context  
-- Wildcards `* ? [ ] { }` — powerful pattern matching  
-- `$HOME`, `$PATH` — key environment variables
-
 ---
 
+<!-- end_slide -->
+<!-- font_size: 5 -->
+<!-- alignment: center -->
+<!-- jump_to_middle -->
 
+# Thanks!
+
+<!-- font_size: 1 -->
+
+#### By ElnurBDa

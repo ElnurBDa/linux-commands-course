@@ -220,15 +220,13 @@ Use `locate` for quick lookups, and `find` for precise, real‑time results.
 
 ---
 
-Recap
-=====
-- **Command locations:** `which`, `whereis`, `type`  
-- **File system search:** `find` (name, size, time, exec, prune)  
-- **Indexed search:** `locate`, `updatedb`  
-- Combine with `xargs` for high performance.  
+<!-- end_slide -->
+<!-- font_size: 5 -->
+<!-- alignment: center -->
+<!-- jump_to_middle -->
 
-These are your search toolkit for any Linux environment.
+# Thanks!
 
----
+<!-- font_size: 1 -->
 
-
+#### By ElnurBDa

@@ -396,14 +396,15 @@ Install via your package manager or from upstream releases.
 
 ---
 
-Recap
-=====
-- Shebang and safe defaults make scripts portable and robust  
-- Quoting, expansion, and command substitution are fundamentals  
-- Use control flow, functions, and arrays for structure  
-- Parse input with `getopts`; clean up with `trap`  
-- Process substitution and here-docs enable elegant workflows  
-- Use `shellcheck` and `shfmt` to maintain quality
 
----
+<!-- end_slide -->
+<!-- font_size: 5 -->
+<!-- alignment: center -->
+<!-- jump_to_middle -->
+
+# Thanks!
+
+<!-- font_size: 1 -->
+
+#### By ElnurBDa
 

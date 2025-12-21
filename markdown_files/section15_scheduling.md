@@ -214,15 +214,15 @@ Weekly report via email:
 
 ---
 
-Recap
-=====
-- **cron** — recurring tasks (`crontab -e`, `/etc/cron.*`)  
-- **at** — one-time jobs (`at`, `atq`, `atrm`)  
-- **systemctl status cron / atd** — ensure schedulers are active  
-- Use log redirection for auditing outputs  
 
-Automation keeps your system consistent, efficient, and hands-free.
+<!-- end_slide -->
+<!-- font_size: 5 -->
+<!-- alignment: center -->
+<!-- jump_to_middle -->
 
----
+# Thanks!
 
+<!-- font_size: 1 -->
+
+#### By ElnurBDa
 

@@ -273,13 +273,16 @@ When to Use Which
 
 ---
 
-Recap
-=====
-- **File capabilities:** `getcap`, `setcap` (fine-grained privileges)  
-- **MAC systems:** SELinux (`getenforce`, `setenforce`), AppArmor (`aa-status`)  
-- **Firewalls:** `ufw`, `firewall-cmd`, `nftables`, `iptables`  
-- Defense layers work together — never rely on just one.
 
----
+<!-- end_slide -->
+<!-- font_size: 5 -->
+<!-- alignment: center -->
+<!-- jump_to_middle -->
+
+# Thanks!
+
+<!-- font_size: 1 -->
+
+#### By ElnurBDa
 
 

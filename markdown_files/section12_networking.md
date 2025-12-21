@@ -291,18 +291,13 @@ sudo nmcli connection up "Wired connection 1"
 
 ---
 
-Recap
-=====
-- **ip a**, **ip r** — view interfaces and routes  
-- **ss -tulpn** — active sockets and ports  
-- **ping**, **traceroute**, **tracepath** — connectivity testing  
-- **dig**, **host** — DNS queries  
-- **curl**, **wget** — HTTP and file transfers  
-- **ssh**, **scp**, **telnet** — remote access and copy  
-- **nmcli** — manage connections via NetworkManager  
+<!-- end_slide -->
+<!-- font_size: 5 -->
+<!-- alignment: center -->
+<!-- jump_to_middle -->
 
-These tools form the backbone of network troubleshooting and configuration.
+# Thanks!
 
----
+<!-- font_size: 1 -->
 
-
+#### By ElnurBDa

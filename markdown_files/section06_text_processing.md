@@ -308,17 +308,15 @@ curl -s https://api.github.com/users/torvalds | jq '.name, .public_repos'
 
 ---
 
-Recap
-=====
-- **grep** — match/filter text using regex  
-- **cut**, **tr**, **sort**, **uniq** — extract and transform columns  
-- **sed** — substitute or delete text patterns  
-- **awk** — structured reporting and logic  
-- **xargs**, **<()** — advanced composition  
-- **iconv**, **dos2unix**, **jq** — encoding and JSON utilities  
+<!-- end_slide -->
+<!-- font_size: 5 -->
+<!-- alignment: center -->
+<!-- jump_to_middle -->
 
-Together, these make Linux text processing infinitely flexible.
+# Thanks!
 
----
+<!-- font_size: 1 -->
+
+#### By ElnurBDa
 
 
